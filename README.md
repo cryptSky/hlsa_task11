@@ -56,7 +56,7 @@ Shortest transaction:           0.05
 ```
 
 Set eviction strategy via redis-cli
-`config set maxmemory-policy allkeys-lru` 
+`config set maxmemory-policy volatile-lru` 
 
 `siege -c100 -t60S --content-type "application/json" 'http://localhost:8000/users POST {}'`
 
